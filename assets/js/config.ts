@@ -1,6 +1,5 @@
 /// <reference path="../typings/requirejs/requirejs.d.ts" />
 
-console.log(loc);
 
 require.config({
         baseURL: "/assets/js",
