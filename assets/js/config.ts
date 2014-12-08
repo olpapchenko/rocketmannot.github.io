@@ -1,6 +1,5 @@
 /// <reference path="../typings/requirejs/requirejs.d.ts" />
 
-var loc = location.pathname.match(/\w+(?=(\/|\.))/)[0];
 console.log(loc);
 
 require.config({
@@ -31,4 +30,4 @@ require.config({
     }
 );
 
-require(["modules/" + loc + "/config"]);
+require(["modules/main/config"]);
