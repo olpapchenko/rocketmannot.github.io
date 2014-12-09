@@ -1,6 +1,5 @@
 /// <reference path="../typings/requirejs/requirejs.d.ts" />
-var loc = location.pathname.match(/\w+(?=(\/|\.))/)[0];
-console.log(loc);
+loc="main";
 require.config({
     baseURL: "/assets/js",
     paths: {
