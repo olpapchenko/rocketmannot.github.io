@@ -43,7 +43,7 @@
      ],
      "materials": [
         {
-            "material_name": "Електро блаблабла",
+            "material_name": "Фызика твердого тіла",
             "total_attendance": 10,
             "trend": [
                       {
@@ -89,7 +89,7 @@
                   ]
         },
         {
-            "material_name": "Second materials name",
+            "material_name": "Динаміка",
             "total_attendance": 20,
             "trend": [
                       {

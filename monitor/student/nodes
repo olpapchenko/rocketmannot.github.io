@@ -1,4 +1,6 @@
 {
-    "student_name": "Some Cool Student",
-    "nodes": [{"node_name": "First Material", "node_id": 1},{"node_name": "Second Stats", "node_id": 2}]
+    "student_name": "Петров Олександр",
+    "nodes": [{"node_name": "Німецька мова", "node_id": 1},{"node_name": "Фізика", "node_id": 2}
+    ,{"node_name": "Вища математика", "node_id": 2},{"node_name": "Креслення", "node_id": 2},
+    ,{"node_name": "Дискретна математика", "node_id": 2}]
 }
