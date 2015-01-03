@@ -9,14 +9,14 @@ define(["require", "exports"], function (require, exports) {
             console.log("create nodes controller " + $scope.page_path);
             console.log("route_param" + $routeParams.page);
             $scope.page_path = PATH_CONSTANTS.NODES_PATH;
-            $scope.node_path = PATH_CONSTANTS.GENERAL_NODE_PATH;
+            $scope.pub_path = PATH_CONSTANTS.GENERAL_NODE_PATH;
             console.log("node path " + $scope.path);
             console.log("path in nodes controller " + $scope.page_path);
-            $http.get(PATH_CONSTANTS.NODES_PATH, { params: { "page": $routeParams.page } }).success(function (nodes) {
-                console.log("nodes " + JSON.stringify(nodes));
-                _this.$scope.pages = nodes.pages;
+            $http.get(PATH_CONSTANTS.NODES_PATH, { params: { "page": $routeParams.page } }).success(function (pubs) {
+                console.log("nodes " + JSON.stringify(pubs));
+                _this.$scope.pages = 5;
                 console.log("page " + _this.$scope.pages);
-                _this.$scope.nodes = nodes.nodes;
+                _this.$scope.pubs = pubs.pubs;
                 console.log(_this.$scope.nodes);
             }).error(function () {
                 console.log("error");
